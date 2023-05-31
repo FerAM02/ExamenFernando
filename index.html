@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Archivo Examen</title>
+</head>
+<body>
+    <div class="encabezado">
+        <h1>BIENVENIDO AL SISTEMA DE TAREAS</h1>
+    </div>
+    <div class="formulario">
+        <h1>Agrega las tareas necesarias para su entrega y revisión</h1>
+        <input type="text" id="tareaInput" name="tareaInput" placeholder="Agrega tu tarea">
+        <input type="submit" onclick="agregarTarea()" value="Agregar">
+    </div>
+    <div class="tareas"> 
+        <div class="seccion-lista">
+			<ul id="lista">
+			</ul>
+		</div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
